@@ -242,6 +242,7 @@ header {
     text-align: center;
     overflow: hidden;
     z-index: 1;
+    flex-grow: 1; /* Allows paragraph to take available space */
 }
 
 .section__about::before {
@@ -438,7 +439,7 @@ header {
 .footer__content{
     font-size: 1.8rem;
     display: flex;
-    text-align: center;
+    /* text-align: center; */
     justify-content: space-between;
 }
 .footer__content h3{
@@ -515,8 +516,6 @@ header {
 ::-webkit-scrollbar-track{
     background-color: var(--bg-primary);
 }
-
-/* responsive */
 
 
 @media (max-width: 768px) {
@@ -614,6 +613,12 @@ header {
     .small-links {
         align-items: center;
     }
+    .locations a{
+        font-size: 1rem;
+    }
+    .locations a i{
+        font-size: 2rem;
+    }
 
     .icons {
         display: flex;
@@ -646,7 +651,7 @@ header {
     .section--right .content__image {
         order: -1;
     }
-      .section--left .content__image {
+      .section--right .content__image {
         order: -1;
     }
 
@@ -655,3 +660,5 @@ header {
         width: 100%;
     }
 }
+
+
