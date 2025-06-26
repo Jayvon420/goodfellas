@@ -13,6 +13,12 @@
     font-weight: 400;
     font-style: normal;
 }
+.platfair-display-sc{
+    font-family: "Playfair Display SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
 *{
     margin:0;
     padding:0; 
@@ -422,6 +428,82 @@ header {
     font-family: "Playfair Display SC", serif;
     font-size: 1.8rem; 
 }
+
+.section__footer{
+    background-color: var(--bg-secondary);
+    padding: 12rem 10%;
+    font-family: "Playfair Display SC", serif;
+}
+
+.footer__content{
+    font-size: 1.8rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.footer__content h3{
+    font-size: 2.5rem;
+}
+.footer__content a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+.footer__content a i{
+    font-size: 3.5rem;
+}
+
+.small-links{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+    list-style: none;
+}
+.locations{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+/* to center the item in container */
+.locations a{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+}
+
+.social-links{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.icons a i{
+    padding: 0 1.5rem;
+}
+
+.border{
+    border: 1px solid var(--text-color);
+    margin: 5rem ;
+}
+
+.footer__copy-right{
+    padding: 0 10%;
+    background-color: var(--bg-secondary);
+}
+
+.copy-right{
+    color: var(--text-color);
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+
+
+
+
 
 /* for scroolbar */
 ::-webkit-scrollbar{
