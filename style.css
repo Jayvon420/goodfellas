@@ -648,10 +648,10 @@ header {
         text-align: start;
     }
 
-    .section--right .content__image {
+    .section--left .content__image {
         order: -1;
     }
-      .section--right .content__image {
+    .section--right .content__image {
         order: -1;
     }
 
