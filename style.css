@@ -420,9 +420,12 @@ header {
 
 .footer__content{
     font-size: 1.8rem;
-    display: flex;
-    /* text-align: center; */
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    align-items: center;
 }
 .footer__content h3{
     font-size: 2.5rem;
@@ -482,9 +485,6 @@ header {
     font-size: 1.8rem;
     text-align: center;
 }
-
-
-
 
 
 
@@ -590,7 +590,12 @@ header {
         width: 100%;
     }
     .footer__content {
-        flex-direction: column;
+        /* flex-direction: column;
+        gap: 4rem;
+        text-align: center;
+        align-items: center; */
+        display: grid;
+        grid-template-columns: 1fr;
         gap: 4rem;
         text-align: center;
         align-items: center;
