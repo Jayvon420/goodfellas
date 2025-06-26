@@ -486,7 +486,7 @@ header {
 
 .border{
     border: 1px solid var(--text-color);
-    margin: 5rem ;
+    margin: 12rem ;
 }
 
 .footer__copy-right{
