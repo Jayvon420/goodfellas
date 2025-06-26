@@ -573,6 +573,7 @@ header {
     .btn {
         width: 100%;
         text-align: center;
+        font-weight: 900;
     }
      .contact form {
         flex-direction: column;
