@@ -541,7 +541,6 @@ header {
         display: block;
     }
 
-    /* gpt added */
     .section{
         padding: 5rem 10%;
         text-align: start;
@@ -552,7 +551,6 @@ header {
     .section__footer{
         padding: 5rem 10%;
     }
-
      .content__text h1 {
         font-size: 2.8rem;
     }
@@ -628,7 +626,7 @@ header {
     }
 
     .content__sponsors img {
-        width: 150px;
+        width: 250px;
     }
 }
 
