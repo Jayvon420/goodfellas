@@ -723,6 +723,7 @@ header {
     .section__about{
         grid-template-columns: 1fr;
         gap: 3rem;
+        padding: 5rem 10%;
     }
 }
 
