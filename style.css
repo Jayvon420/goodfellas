@@ -489,7 +489,7 @@ header {
 
 
 /* for scroolbar */
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
     width: 20px;
 }
 ::-webkit-scrollbar-thumb{
@@ -497,9 +497,95 @@ header {
 }
 ::-webkit-scrollbar-track{
     background-color: var(--bg-primary);
+} */
+
+
+/* ================================about page */
+.section__about{
+    display: grid;
+    padding: 12rem 10%;
+    grid-template-columns: 1fr 1fr;
+    color: var(--text-color);
+    gap: 5rem;
+    align-items: start;
+    justify-items: center;
+    background-color: #131313;
+    text-align: center;
+}
+.content__about {
+    display: grid;
+}
+
+.content__about h3{
+    font-size: 4rem;
+    font-family: "Playfair Display SC", serif;
+}
+.content__about p{
+    font-size: 2rem;
+    font-family: "Raleway", serif;
+    line-height: 1.618;
+    padding: 0 3rem;
+}
+
+.section__brand{
+    padding: 12rem 10%;
 }
 
 
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 3rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin-inline: auto; /* centers grid */
+    align-items: stretch;
+}
+
+.card{
+    padding: 2rem;
+    background-color: var(--bg-secondary);
+    border-radius: 25px;
+}
+
+.card h4{
+    font-size: 3.5rem;
+    color: var(--text-color);
+    font-family: "Playfair Display SC", serif;
+    margin-bottom: 1.5rem;
+    overflow-wrap: break-word;
+}
+.card p{
+    font-size: 1.5rem;
+    line-height: 2;
+    font-family: "Raleway", serif;
+    color: var(--text-color);
+}
+
+
+/* section === =========== CTA */
+
+.call2action{
+    display: grid;
+    color: white; 
+    grid-template-columns: 1fr;
+    gap: 5rem;
+    background-color: var(--primary-color);
+    padding: 5rem 10%;
+    justify-items: center;
+    text-align: center;
+
+}
+.content__cta p{
+    color: var(--bg-primary);
+    font-size: 3rem;
+    font-family: "Raleway", serif;
+}
+
+
+/* section CTA ================================== END */
+
+/* ================================================@media screen */
 @media (max-width: 768px) {
     #menu-icon {
         display: block;
@@ -632,6 +718,11 @@ header {
 
     .content__sponsors img {
         width: 250px;
+    }
+
+    .section__about{
+        grid-template-columns: 1fr;
+        gap: 3rem;
     }
 }
 
